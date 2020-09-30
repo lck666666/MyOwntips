@@ -8,7 +8,7 @@ https://blog.csdn.net/jiachen0212/article/details/81022079
 ## Cifar10 jpg数据集
 https://blog.csdn.net/guohuifengby/article/details/62424299
 
-##iptables
+## iptables
 ```shell
 sudo iptables -t nat 
 sudo iptables -t nat -A POSTROUTING ! -d 192.168.204.0/25 -j MASQUERADE
