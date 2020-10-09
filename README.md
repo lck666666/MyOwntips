@@ -14,6 +14,7 @@ sudo iptables -t nat
 sudo iptables -t nat -A POSTROUTING ! -d 192.168.204.0/25 -j MASQUERADE
 sudo iptables -t nat -A POSTROUTING -s 192.168.204.128/25 -j MASQUERADE
 ```
+```
 Chain PREROUTING (policy ACCEPT)
 
 target     prot opt source               destination
@@ -31,3 +32,7 @@ MASQUERADE  all  --  anywhere            !192.168.204.0/25
 Chain OUTPUT (policy ACCEPT)
 
 target     prot opt source               destination
+```
+```shell
+sudo du -kh --max-depth=1 /
+```
